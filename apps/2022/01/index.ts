@@ -1,10 +1,11 @@
+import { join } from 'path';
 import { loadDataFromPath, sum, getMax } from 'utils';
 
 export function main(path: string) {
 	const result = [0, 0];
 
 	try {
-		const data = loadDataFromPath(path);
+		const data = loadDataFromPath(join(__dirname, path));
 		const caloriesByElves = getAggregatedCaloriesByElves(data);
 
 		//* Puzzle 01
