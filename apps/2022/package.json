@@ -1,0 +1,15 @@
+{
+	"name": "2022",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"dependencies": {
+		"utils": "*"
+	},
+	"devDependencies": {
+		"tsconfig": "*"
+	}
+}
