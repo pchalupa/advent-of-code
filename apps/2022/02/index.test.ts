@@ -1,7 +1,7 @@
 import { main } from './index';
 
 describe('Day 02', () => {
-	it.skip.each([
+	it.each([
 		['example.txt', 15],
 		['data.txt', 14297],
 	])('solve puzzle 01 with %s result in %s', (path, result) => {
